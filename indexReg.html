@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+ <style>
+  *
+  {
+    background-color: wheat;
+  }
+.butt
+{
+     align-items: center;
+     justify-content: center; 
+     text-align: center;
+}
+
+ </style>
+</head>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid-1">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Entertainment</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="Home.html">Home</a></li>
+      <li class="active"><a href="Register.html">Register</a></li>
+      <li class="active"><a href="Contact_Us.html">Contact Us</a></li>
+      <li class="active"><a href="Login.html">Sign up</a></li>
+      <li class="active"><a href="Feedback.html">Feedback</a></li>
+      <!-- <li><a href="#">Page 1</a></li>
+      <li><a href="#">Page 2</a></li>
+      <li><a href="#">Page 3</a></li> -->
+    </ul>
+    <div class="search-container" style="float: right;margin-top: 1rem;color: white;margin-right: 2rem;">
+        <form action="/action_page.php">
+          <input type="text" placeholder="Search.." name="search" style="padding: 4px;">
+          <button type="submit" style="padding: 4px;background-color: darkorange;">Submit</button>
+        </form>
+    </div>
+  </div>
+  
+<body>
+
+<!-- 
+</form>
+<div class="form-group" style="background-color: yellow;border: 2;margin: left;width: 20rem;margin-left: 8rem;">
+<label>First Name</label>
+<input type="text" name="txtfname" class="form-control">
+<br>
+
+<label>Last Name</label>
+<input type="text" name="txtlname" class= "form-control">
+  <br>
+<label>Mobile Number</label>
+<input type="number" name="txtmno" class= "form-control" >
+  <br>
+<label>Password</label>
+<input type="password" name="txtpswd" class= "form-control">
+<button type="submit" class="btn btn-default butt">Submit</button>  
+</div>
+</form>
+   -->
+
+   <div class="container">
+    <div class="row">
+        <div class="col-sm-12 text-center">
+      <h2> Register </h2>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-sm-2">
+        </div>
+        <div class="col-sm-8">
+    <br>
+         <form class="form-horizontal" action="/action_page.php">
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="txtfname">First Name:</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="txtfname" placeholder="First Name">
+        </div>
+    </div>
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="txtlname">Last Name:</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="txtlname" placeholder="Last Name">
+        </div>
+        </div>
+    
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="txtPwd">Password:</label>
+        <div class="col-sm-10">
+          <input type="password" class="form-control" id="txtPwd" placeholder="Enter password">
+        </div>
+        </div>
+        
+        <div class="form-group">
+          <label class="control-label col-sm-2" for="txtConPwd">Confirm Password:</label>
+        <div class="col-sm-10">
+          <input type="password" class="form-control" id="txtConPwd" placeholder="Enter password again">
+        </div>
+        </div>
+        <div class="form-group">
+        <label class="control-label col-sm-2" for="txtMobNo">Mobile No:</label>
+        <div class="col-sm-10">
+          <input class="form-control" type="number" id="txtMobNo"> </input>
+        </div>
+        </div>
+        <div class="form-group">
+                  <button type="submit" class="btn btn-info" style="margin-left: 15rem;">Submit</button>
+            </div> 
+        </div> 
+        
+      </form>
+        </div>
+        <div class="col-sm-2">
+          
+        </div>
+    </div>
+    </div>
+    
+
+</body>
+</html>
+  
